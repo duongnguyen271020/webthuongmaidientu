@@ -32,6 +32,13 @@ public class Usersevices {
         return false;
     }
 
-    public void register(String username, String password, String confirm, String email, String phone, String address) {
+    public boolean register(String username, String password, String confirm, String email, String phone, String address) {
+        if (users.containsKey(username)) {
+            return false;
+        } else {
+            users.put(username, password);
+        }
+        return true;
     }
+
 }

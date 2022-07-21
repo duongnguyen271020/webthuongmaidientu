@@ -76,7 +76,7 @@
                 <p class="section-head">Đăng Ký Tài Khoản</p>
                 <!--End Thanh tiêu đề-->
                 <!--Form-->
-                <form action="" method="post">
+                <form action="/webthuongmaidientu-0/doRegister" method="post">
                     <p class="title">Vui lòng nhập thông tin</p>
                     <input type="text" name="" placeholder="Tên đăng nhập" />
                     <input type="email" name="" placeholder="Email" />

@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
-@WebServlet(name = "Register", value = "/Register")
+@WebServlet(name = "Register", value = "/doRegister")
 public class register extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -22,11 +22,13 @@ public class register extends HttpServlet {
         String email = request.getParameter("email");
         String phone = request.getParameter("phone");
         String address=  request.getParameter("address");
-        if(Usersevices.getInstance().register(Username, Password ,confirm,email, phone, address);
-    } else{
-        //add error message ..
-        //
-        request.getRequestDispatcher("register.jsp").forward(request, response);
+        if (Usersevices.getInstance().register(Username, Password ,confirm,email, phone, address)){
+            response.sendRedirect("/webthuongmaidientu-0/Register");
+        } else {
+            //add error message ...
+            //
+            //
+            request.getRequestDispatcher("Register.jsp").forward(request,response);
+        }
     }
 }
-

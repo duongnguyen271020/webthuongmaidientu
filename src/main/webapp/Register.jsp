@@ -78,13 +78,13 @@
                 <!--Form-->
                 <form action="/webthuongmaidientu-0/doRegister" method="post">
                     <p class="title">Vui lòng nhập thông tin</p>
-                    <input type="text" name="" placeholder="Tên đăng nhập" />
-                    <input type="email" name="" placeholder="Email" />
-                    <input type="password" name="" placeholder="Nhập mật khẩu" />
-                    <input type="password" name="" placeholder="Xác nhận mật khẩu" />
+                    <input type="Username" name="Username" placeholder="Username" />
+                    <input type="Password" name="Password" placeholder="Password" />
+                    <input type="Comfirm Password " name="Comfirm Password" placeholder="Comfirm Password" />
+                    <input type="Email" name="Email" placeholder="Email" />
                     <button type="submit">Đăng ký</button>
                     <p>Hoặc</p>
-                    <a href="dang-nhap.html">Đăng nhập</a>
+                    <a href="login.jsp">Đăng nhập</a>
                 </form>
                 <!--End Form-->
             </div>

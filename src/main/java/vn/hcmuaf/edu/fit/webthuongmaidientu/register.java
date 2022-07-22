@@ -18,11 +18,11 @@ public class register extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String Username = request.getParameter("Username");
         String Password = request.getParameter("Password");
-        String confirm = request.getParameter("confirm");
+        String confirm = request.getParameter("Comfirm Password");
         String email = request.getParameter("email");
-        String phone = request.getParameter("phone");
-        String address=  request.getParameter("address");
-        if (Usersevices.getInstance().register(Username, Password ,confirm,email, phone, address)){
+
+
+        if (Usersevices.getInstance().register(Username, Password ,confirm,email)){
             response.sendRedirect("/webthuongmaidientu-0/Register");
         } else {
             //add error message ...

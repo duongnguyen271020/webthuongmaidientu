@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad3b40c9-c24c-48c9-a19c-dbcc8fd11433" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/webthuongmaidientu/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/hcmuaf/edu/fit/webthuongmaidientu/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/hcmuaf/edu/fit/webthuongmaidientu/Servlet.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ad3b40c9-c24c-48c9-a19c-dbcc8fd11433" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

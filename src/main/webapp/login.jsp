@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%
     String error = (String) request.getAttribute("error");
@@ -9,6 +10,15 @@
     <meta charset="utf-8">
     <!-- CSS is here -->
     <title>Web bán hàng</title>
+=======
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String error = (String) request.getAttribute("error");
+%>
+<html>
+<head>
+    <title>Title</title>
+>>>>>>> Stashed changes
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/nav-header.css" rel="stylesheet" type="text/css">
     <link href="css/banner-top.css" rel="stylesheet" type="text/css">
@@ -22,10 +32,16 @@
     <link href="css/breadcrumb.css" rel="stylesheet" type="text/css">
     <link href="css/form.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< Updated upstream
 
 </head>
 <body>
 <div class="con">
+=======
+</head>
+<body>
+<div class="">
+>>>>>>> Stashed changes
 
     <!-- Thanh công cụ -->
     <div class="nav fixed-top">
@@ -46,7 +62,11 @@
 
     <!-- Phần header -->
     <div class="header"> <a href="index.html"><img src="image/logo-web1.png" alt="" width="120" height="90" class="logo"/></a>
+<<<<<<< Updated upstream
         <span class="ten-cua-hang">The Best Shop Ever</span>
+=======
+        <span class="ten-cua-hang">DTN Shop</span>
+>>>>>>> Stashed changes
         <div class="search">
             <input type="search" class="search-box" placeholder="Bạn cần tìm gì ?">
             <a href="tim-kiem.html" class="search-button" >Search</a>
@@ -62,6 +82,7 @@
 
     <!-- Phần thân trang container -->
     <div class="container">
+<<<<<<< Updated upstream
         <!-- Thanh menu bên trái -->
 <%--        <div class="menu-ben-trai">--%>
 <%--            <ul>--%>
@@ -75,6 +96,9 @@
 <%--            </ul>--%>
 <%--        </div>--%>
         <!--End Thanh menu bên trái -->
+=======
+
+>>>>>>> Stashed changes
         <div class="khung-chua-san-pham">
             <div class="section">
                 <!--Thanh tiêu đề-->
@@ -83,6 +107,7 @@
                 <!--Form-->
                 <form action="/webthuongmaidientu-0/doLogin" method="post">
                     <%
+<<<<<<< Updated upstream
                         if(error != null){
                             %>
                             <div class="alert alert-danger" role="alert">
@@ -94,6 +119,18 @@
                     <p class="title">Vui lòng nhập thông tin</p>
                     <input type="Username"name ="Username"<% if(request.getParameter("Username")!=null){%>
                            value="<%=request.getParameter("Username")%>"<%}%>  placeholder="Username"/>
+=======
+                        if (error != null) {
+                    %>
+                    <div  class ="alert alert-danger " role="alert">
+                                <%= error %>
+                    </div>
+                    <%
+                        }
+                    %>
+                    <p class="title">Vui lòng nhập thông tin</p>
+                    <input type="Username" name ="Username"<%if(request.getParameter("Username")!=null) { %> value="<%=request.getParameter("Username")%>"<% } %> placeholder="Username"/>
+>>>>>>> Stashed changes
                     <input type="Password" name="Password" placeholder="Password"/>
                     <button type="submit">Đăng nhập</button>
                     <p>Hoặc</p>
@@ -109,6 +146,7 @@
     <!--end container-->
 
 
+<<<<<<< Updated upstream
     <!-- Thanh menu bên phải -->
     <!--	/*<table class="right-content">
           <tbody>
@@ -139,6 +177,8 @@
           </tbody>
         </table>*/-->
     <!-- end Thanh menu bên phải -->
+=======
+>>>>>>> Stashed changes
 
     <div class="clear"></div>
     <!--Phần chân trang-->
@@ -148,7 +188,10 @@
     <!--end Phần chân trang-->
 </div>
 <!--end class=""-->
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 </body>
 </html>

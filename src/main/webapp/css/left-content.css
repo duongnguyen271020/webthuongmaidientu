@@ -29,12 +29,21 @@
 }
 
 .menu-ben-trai .title {
+<<<<<<< Updated upstream
     color: white;
     padding: 7px 15px 7px 15px;
     font-size: 20px;
     text-align: center;
     background: linear-gradient(to right, #003e52, #1895b0);
     border-radius: 7px;
+=======
+	color: white;
+  padding: 7px 15px 7px 15px;
+  font-size: 20px;
+  text-align: center;
+	background: linear-gradient(to right,#186781,#0a9bbb);
+	border-radius: 7px;
+>>>>>>> Stashed changes
 }
 
 .menu-ben-trai ul {

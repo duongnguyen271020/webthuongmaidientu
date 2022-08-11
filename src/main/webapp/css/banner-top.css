@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .banner {
     min-height: 400px;
     min-width: 1000px;
@@ -6,4 +7,12 @@
     background-size: contain;
     background-position: center;
     margin-top: 10px;
+=======
+.banner{
+	min-height: 400px;
+	min-width: 1000px;
+	background-size: contain;
+	background: url(../image/productbackgroud.jpg) no-repeat center;
+	margin-top: 10px;
+>>>>>>> Stashed changes
 }

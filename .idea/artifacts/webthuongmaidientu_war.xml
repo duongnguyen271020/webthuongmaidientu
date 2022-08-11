@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="webthuongmaidientu-1.0-SNAPSHOT.war">
+    <root id="archive" name="ThuongMaiDienTu-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="webthuongmaidientu:war exploded" />
     </root>
   </artifact>
